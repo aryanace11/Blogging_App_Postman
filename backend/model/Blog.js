@@ -16,11 +16,9 @@ image: {
 type: String,
 required: true
 },  
-user: {
-  type: mongoose.Types.ObjectId,
-  ref: "User", 
-  required: true
-},
+name: {
+type: String,
+required: true },
 blogs: [
 {type: mongoose.Types.ObjectId,ref: "Blog",required: true}],
 });
